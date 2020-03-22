@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  background: rgb(111, 196, 196);
+  border-radius: 12px;
+  box-shadow: 13px 15px 14px -5px rgba(69, 117, 98, 0.31);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0.8em;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 2%;
+  width: 200px;
+  font-size: 20px;
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  padding: 2em;
+  box-shadow: 13px 15px 14px -5px rgba(69, 117, 98, 0.31);
+}
+.counter-output {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter-output span {
+  font-size: 35px;
+}
+
+.times-clicked-output {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
